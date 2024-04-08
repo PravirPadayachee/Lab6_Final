@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": ["anonymous", "authenticated"],
+      "cors": {
+        "allowedOrigins": ["http://yourfrontendurl.com"]
+      }
+    }
+  ]
+}
