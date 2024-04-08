@@ -4,7 +4,7 @@
       "route": "/*",
       "allowedRoles": ["anonymous", "authenticated"],
       "cors": {
-        "allowedOrigins": ["http://yourfrontendurl.com"]
+        "allowedOrigins": ["https://ashy-cliff-053177f10.5.azurestaticapps.net/"]
       }
     }
   ]
