@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 
-app.use(cors({ origin: 'https://ashy-cliff-053177f10.5.azurestaticapps.net/' }));
+app.use(cors({ origin: 'https://ashy-cliff-053177f10.5.azurestaticapps.net' }));
 app.use(express.json());
 
 const cars = require('./cars.json');
